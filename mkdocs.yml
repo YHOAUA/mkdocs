@@ -1,0 +1,21 @@
+site_name: 我的项目文档          # ← 必须项，可修改为您自己的项目名称
+site_url: https://yhoaua.github.io/mkdocs/
+theme:
+  name: material
+  language: zh                   # 中文界面（可选，删除或改为 en 为英文）
+  palette:
+    - scheme: default            # 白天模式
+    - scheme: slate              # 深色模式
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - toc:
+      permalink: true
